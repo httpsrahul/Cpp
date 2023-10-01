@@ -43,7 +43,7 @@ class Sales:private Stock
 					if(p_stock<n)
 					cout<<"Insufficient Products"<<endl;
 				else
-					update(p_stock-1);
+					update(p_stock-n);
 			}
 		}
 		void display()
